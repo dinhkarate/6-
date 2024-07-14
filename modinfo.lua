@@ -1,7 +1,8 @@
 -- This information tells other players more about the mod
-name = "6月の雨"
-description = [[Rain Rain Rain]]
-author = "Dinh"
+name = "Rain World"
+description = [[The world always rain
+6月の雨]]
+author = "dinhkarate"
 version = "10.6"
 forumthread = ""
 
@@ -30,6 +31,7 @@ configuration_options = {
         label = "Rain time interval",
         options = {
             { description = "0",     data = 0 },
+            { description = "1",     data = 1 },
             { description = "30",     data = 30 },
             { description = "60",    data = 60 },
             { description = "120", data = 120 },
@@ -37,6 +39,6 @@ configuration_options = {
             { description = "240",     data = 240 },
             { description = "300",     data = 300 },
         },
-        default = 0,
+        default = 1,
     },
 }
